@@ -39,7 +39,7 @@ RUN chown -R www-data:www-data \
     logs
 
 # Copier la configuration nginx
-COPY nginx/default.conf /etc/nginx/conf.d/default.conf
+COPY docker/nginx/default.conf /etc/nginx/conf.d/default.conf
 
 EXPOSE 8080
 
